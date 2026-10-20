@@ -74,7 +74,7 @@ export default function Invitation(){
             <span className="card-orbit orbit-a" aria-hidden="true"/><span className="card-orbit orbit-b" aria-hidden="true"/>
             <span className="bridal-ribbon" aria-hidden="true"><i/><b>♡</b><i/></span>
             <p className="eyebrow cover-label">{t.coverHint}</p>
-            <span className="bride-edition">KELIN TOMONI</span>
+
             <Flourish className="cover-flourish"/>
             <p className="cover-invitation">{t.invitation}</p>
             <h1><span>{groom}</span><i>&</i><span>{bride}</span></h1>
@@ -95,7 +95,7 @@ export default function Invitation(){
         <section className="hero" id="home">
           <Botanical className="botanical hero-left"/><Botanical className="botanical hero-right"/>
           <div className="hero-arch" aria-hidden="true"><span className="hero-pearl one"/><span className="hero-pearl two"/><span className="hero-pearl three"/></div>
-          <div className="hero-content"><span className="bride-edition hero-edition">KELIN TOMONI</span><p className="eyebrow">{t.invitation}</p><Flourish className="hero-flourish"/>
+          <div className="hero-content"><p className="eyebrow">{t.invitation}</p><Flourish className="hero-flourish"/>
           <h1 ref={headingRef} tabIndex={-1}><span>{groom}</span><i>&</i><span>{bride}</span></h1>
           <p className="hero-line">{t.heroLine}</p>
           <div className="hero-date"><span>{date.weekday}</span><strong>07 <i>/</i> 11 <i>/</i> 2026</strong><span>{wedding.startTime||t.forever}</span></div>

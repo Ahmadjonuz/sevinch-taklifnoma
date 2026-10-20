@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { dateParts,calendarCells,countdown,buildIcs } from '../lib/event.mjs';
-const event={groom:{uz:'Nabijon',ru:'Набижон'},bride:{uz:'Sevinchxon',ru:'Севинчхон'},date:'2026-11-07',startTime:null,utcOffset:'+05:00',venue:{name:{uz:'Kelin tomoni to‘y manzili',ru:'Место торжества со стороны невесты'},address:{uz:'Google xaritada belgilangan manzil',ru:'Место отмечено на Google Картах'},latitude:40.417192,longitude:70.897604,mapUrl:'https://maps.google.com/maps?q=40.417192,70.897604&ll=40.417192,70.897604&z=16'}};
+const event={groom:{uz:'Nabijon',ru:'Набижон'},bride:{uz:'Sevinchxon',ru:'Севинчхон'},date:'2026-11-07',startTime:null,utcOffset:'+05:00',venue:{name:{uz:'Kelin tomon to‘y manzili',ru:'Место торжества со стороны невесты'},address:{uz:'Google xaritada belgilangan manzil',ru:'Место отмечено на Google Картах'},latitude:40.417192,longitude:70.897604,mapUrl:'https://maps.google.com/maps?q=40.417192,70.897604&ll=40.417192,70.897604&z=16'}};
 test('November 7 is Saturday, with deterministic Uzbek and Russian date labels',()=>{
   assert.equal(dateParts(event.date,'uz').label,'7 noyabr 2026');
   assert.equal(dateParts(event.date,'ru').weekday,'суббота');

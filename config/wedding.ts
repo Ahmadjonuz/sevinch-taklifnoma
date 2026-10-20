@@ -7,7 +7,7 @@ export const wedding = {
   startTime: '12:00' as string | null,
   utcOffset: '+05:00',
   venue: {
-    name: { uz: 'Kelin tomoni to‘y manzili', ru: 'Место торжества со стороны невесты' },
+    name: { uz: 'To‘y manzili', ru: 'Место торжества со стороны невесты' },
     address: {
       uz: 'Google xaritada belgilangan manzil',
       ru: 'Место отмечено на Google Картах',

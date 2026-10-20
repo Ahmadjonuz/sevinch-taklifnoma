@@ -9,7 +9,7 @@
   <rect x="39" y="39" width="1122" height="552" rx="22" fill="none" stroke="#ead5da"/>
   <path d="M100 200C125 125 175 88 255 68M94 154c48 2 68-25 71-55M146 111c-19-29-4-52 20-57M1100 430c-25 75-75 112-155 132m161-86c-48-2-68 25-71 55m55-12c19 29 4 52-20 57" fill="none" stroke="#bd7e91" stroke-width="2" opacity=".65"/>
   <g fill="#dba6b5" opacity=".72"><ellipse cx="122" cy="142" rx="14" ry="28" transform="rotate(42 122 142)"/><ellipse cx="163" cy="102" rx="13" ry="27" transform="rotate(63 163 102)"/><ellipse cx="1078" cy="488" rx="14" ry="28" transform="rotate(42 1078 488)"/><ellipse cx="1037" cy="528" rx="13" ry="27" transform="rotate(63 1037 528)"/></g>
-  <text x="600" y="105" text-anchor="middle" font-family="DejaVu Sans" letter-spacing="6" font-size="15" fill="#a26677">KELIN TOMONI TAKLIFNOMASI</text>
+  <text x="600" y="105" text-anchor="middle" font-family="DejaVu Sans" letter-spacing="6" font-size="15" fill="#a26677">TAKLIFNOMASI</text>
   <path d="M455 137H565M635 137H745M600 127l10 10-10 10-10-10Z" fill="none" stroke="#c59d8b"/>
   <text x="600" y="257" text-anchor="middle" font-family="DejaVu Serif" font-size="91" fill="#9d5067">Nabijon</text>
   <text x="600" y="326" text-anchor="middle" font-family="DejaVu Serif" font-style="italic" font-size="47" fill="#c59d8b">&amp;</text>
